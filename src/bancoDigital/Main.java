@@ -8,7 +8,6 @@ public class Main {
 
         Conta cc = new ContaCorrente(carlos);
         cc.depositar(100);
-        cc.deletarConta(cc);
 
         Conta cp = new ContaPoupanca(carlos);
         cc.transferir(100, cp);
